@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,9 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExcelSheetWorker.cs" />
-    <Compile Include="HashTableFromRange.cs" />
+    <Compile Include="IExcelSheetWorker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RangeToUpdate.cs" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="Microsoft.Office.Core">
